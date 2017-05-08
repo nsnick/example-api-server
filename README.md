@@ -10,3 +10,6 @@ module.exports = {
     'commentDelayInSeconds': 60
 };
 ```
+
+npm start
+
