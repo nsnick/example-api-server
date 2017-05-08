@@ -1,0 +1,32 @@
+{
+  "name": "example-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nsnick/example-api-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsnick/example-api-server"
+  },
+  "homepage": "https://github.com/nsnick/example-api-server#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.6",
+    "morgan": "^1.8.1",
+    "util": "^0.10.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
